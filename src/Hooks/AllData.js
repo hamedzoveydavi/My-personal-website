@@ -530,25 +530,32 @@ const AllData = () => {
   const experiencesArray = [
     {
       id: 1,
-      date: "2017-2021",
-      title: "Computer Science",
-      place: "Imperialize Technical Institute",
+      date: "2022-2023",
+      title: "Project Manager ",
+      place: "In StackTeam   . http://www.stackteam.org/",
+      bg: "#EEF5FA",
+    },
+    {
+      id: 2,
+      date: "2017-2022",
+      title: "Full-Stack Developer ",
+      place: "In Hamrah Kousha Kish Company  - My achievements : occ software design - Kosha Kish company site design - logistics process design. http://www.hamrahkousha.ir/ . http://www.fph.hamrahkousha.ir/",
       bg: "#EEF5FA",
     },
 
     {
-      id: 2,
-      date: "2015-2017",
-      title: "Cr. Web Developer",
-      place: "ib-themes ltd.",
+      id: 3,
+      date: "2014-2017",
+      title: "Full-Stack Developer",
+      place: "Saman Handling -  Education software design. Software design for traffic unit shift. https://www.saman.aero/",
       bg: "#F2F4FF",
     },
 
     {
-      id: 3,
-      date: "2008",
-      title: "Best Writter",
-      place: "Online Typodev Soluation Ltd.",
+      id: 4,
+      date: "2012-2013",
+      title: "developer and suporter software",
+      place: "Development of integrated enterprise software. Developing software and creating reports was only through writing Stored Procedures,functions in SQL Server. https://avasamane.com/fa/",
       bg: "#EEF5FA",
     },
   ];
