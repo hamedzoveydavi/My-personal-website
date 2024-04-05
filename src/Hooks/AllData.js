@@ -4,21 +4,21 @@ import work1 from "../assets/images/work_images/1.png";
 import work2 from "../assets/images/work_images/2.jpg";
 import work3 from "../assets/images/work_images/3.png";
 import work4 from "../assets/images/work_images/4.png";
-/*import work5 from "../assets/images/work_images/5.jpg";
-import work6 from "../assets/images/work_images/6.jpg";
-import work7 from "../assets/images/work_images/7.jpg";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";*/
+import work5 from "../assets/images/work_images/5.png";
+import work6 from "../assets/images/work_images/6.png";
+import work7 from "../assets/images/work_images/7.png";
+import work8 from "../assets/images/work_images/8.png";
+/*import work9 from "../assets/images/work_images/9.jpg";*/
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.png";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
 import workSmall3 from "../assets/images/work_images/small/3.png";
 import workSmall4 from "../assets/images/work_images/small/4.png";
-/*import workSmall5 from "../assets/images/work_images/small/5.jpg";
-import workSmall6 from "../assets/images/work_images/small/6.jpg";
-import workSmall7 from "../assets/images/work_images/small/7.jpg";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";*/
+import workSmall5 from "../assets/images/work_images/small/5.png";
+import workSmall6 from "../assets/images/work_images/small/6.png";
+import workSmall7 from "../assets/images/work_images/small/7.png";
+import workSmall8 from "../assets/images/work_images/small/8.png";
+/*import workSmall9 from "../assets/images/work_images/small/9.jpg";*/
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -194,7 +194,61 @@ const AllData = () => {
       description:
         " Company site for introducing and selling beauty products.",
     },
-
+    {
+      id: "5",
+      tag: "Web Design",
+      title: "Ansel",
+      img: work5,
+      imgSmall: workSmall5,
+      bg: "#FFF3FC",
+      client: "ANSEL",
+      langages: "Flutter,Dart",
+      link: "#",
+      linkText: "ANSEL",
+      description:
+        "The designed application has the ability to determine the time and percentage of the mobile battery charge, enabling it to control the battery charge and prevent damage.",
+    },
+    {
+      id: "6",
+      tag: "Web Design",
+      title: "IFund Prop Panel",
+      img: work6,
+      imgSmall: workSmall6,
+      bg: "#FFF3FC",
+      client: "IFund",
+      langages: "Laravel,React",
+      link: "https://dashboard.ifund.trade/",
+      linkText: "IFund Prop Panel",
+      description:
+        "Prop Firm Panel",
+    },
+    {
+      id: "7",
+      tag: "Web Design",
+      title: "IFund Prop",
+      img: work7,
+      imgSmall: workSmall7,
+      bg: "#FFF3FC",
+      client: "IFund",
+      langages: "Laravel,React",
+      link: "https://ifund.trade/",
+      linkText: "IFund Prop",
+      description:
+        "Prop Firm Panel",
+    },
+    {
+      id: "8",
+      tag: "Web Design",
+      title: "Azin Khodro CO",
+      img: work8,
+      imgSmall: workSmall8,
+      bg: "#FFF3FC",
+      client: "Azin Khodro",
+      langages: "Laravel,React",
+      link: "https://azinkhodroco.ir/",
+      linkText: "Azin Khodro CO",
+      description:"Azin Khodro CO",
+    },
     
   ];
   const [data, setData] = useState(workItems);
