@@ -1,24 +1,24 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
+import work1 from "../assets/images/work_images/1.png";
 import work2 from "../assets/images/work_images/2.jpg";
-import work3 from "../assets/images/work_images/3.jpg";
-import work4 from "../assets/images/work_images/4.jpg";
+import work3 from "../assets/images/work_images/3.png";
+/*import work4 from "../assets/images/work_images/3.jpg";
 import work5 from "../assets/images/work_images/5.jpg";
 import work6 from "../assets/images/work_images/6.jpg";
 import work7 from "../assets/images/work_images/7.jpg";
 import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
+import work9 from "../assets/images/work_images/9.jpg";*/
 // works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
+import workSmall1 from "../assets/images/work_images/small/1.png";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
-import workSmall4 from "../assets/images/work_images/small/4.jpg";
+import workSmall3 from "../assets/images/work_images/small/3.png";
+/*import workSmall4 from "../assets/images/work_images/small/4.jpg";
 import workSmall5 from "../assets/images/work_images/small/5.jpg";
 import workSmall6 from "../assets/images/work_images/small/6.jpg";
 import workSmall7 from "../assets/images/work_images/small/7.jpg";
 import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
+import workSmall9 from "../assets/images/work_images/small/9.jpg";*/
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -138,131 +138,50 @@ const AllData = () => {
   // Elements for protfilo section
   const workItems = [
     {
+   
       id: "1",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "Web Design",
+      title: "Airport Operations Managment System",
       img: work1,
       imgSmall: workSmall1,
-      bg: "#FFF0F0",
-      client: "Envato",
-      langages: "Photoshop, Figma",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      bg: "#FFF3FC",
+      client: "Hamrah Kousha Kish",
+      langages: "PHP ,HTML, CSS, Javascript",
+      link: "https://www.fph.hamrahkousha.ir",
+      linkText: "Occ Software",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia placeat magnam possimus iusto blanditiis pariatur labore explicabo quo repellat hic dolorum numquam asperiores, voluptatum fugiat reiciendis aspernatur, non, odio aperiam voluptas ex tempora vitae. Dolor, consequatur quidem! Quas magni distinctio dolorum dolore natus, vel numquam accusamus. Nostrum eligendi recusandae qui tempore deserunt!",
+        " This software is used for flight scheduling and various airlines. Airports that are under contract with Kosha Hamrah Company use this software to register information and facilitate communication between internal airport units and (origin and destination airports). With this software, forming operational teams becomes easier, and flight information and LDM, etc., are automatically sent to the national airline organization.",
     },
     {
       id: "2",
       tag: "Web Design",
-      title: "Aura Dione",
+      title: "Motekhasess Plus Aplication",
       img: work2,
       imgSmall: workSmall2,
       bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.themeforest.net",
-      linkText: "themeforest.net",
+      client: "Motekhasess Plus",
+      langages: "PHP ,HTML, CSS, Javascript",
+      link: "https://www.motekhasesplus.ir/",
+      linkText: "Motekhasess Plus",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        " This software is for ease of supervision of construction and installation works.",
     },
     {
       id: "3",
-      tag: "Logo",
-      title: "Chul urina",
+      tag: "Web Design",
+      title: "Hamrah Kousha Kish",
       img: work3,
       imgSmall: workSmall3,
-      bg: "#FFF0F0",
-      client: "Freepik",
-      langages: "Illustrator",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
+      bg: "#FFF3FC",
+      client: "Hamrah Kousha",
+      langages: "PHP ,HTML, CSS, Javascript",
+      link: "https://www.hamrahkousha.ir",
+      linkText: "Hamrah Kousha",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        " A website to introduce the company, operational units, and airport equipment ordered by Kosha Kish Company.",
     },
-    {
-      id: "4",
-      tag: "Video",
-      title: "Chul urina",
-      img: work4,
-      imgSmall: workSmall4,
-      bg: "#E9FAFF",
-      client: "Envato",
-      langages: "After Effect",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "5",
-      tag: "UI/UX",
-      title: "Chul urina",
-      img: work5,
-      imgSmall: workSmall5,
-      bg: "#FFFAE9",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "6",
-      tag: "Video",
-      title: "Chul urina",
-      img: work6,
-      imgSmall: workSmall6,
-      bg: "#F4F4FF",
-      client: "Envato",
-      langages: "Vimeo",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "7",
-      tag: "UI/UX",
-      title: "Chul urina",
-      img: work7,
-      imgSmall: workSmall7,
-      bg: "#FFF0F8",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "8",
-      tag: "Web Design",
-      title: "Chul urina",
-      img: work8,
-      imgSmall: workSmall8,
-      bg: "#FFF0F8",
-      client: "Envato",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "9",
-      tag: "Logo",
-      title: "Chul urina",
-      img: work9,
-      imgSmall: workSmall9,
-      bg: "#FCF4FF",
-      client: "Feepik",
-      langages: "Figma",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
+
+    
   ];
   const [data, setData] = useState(workItems);
 
