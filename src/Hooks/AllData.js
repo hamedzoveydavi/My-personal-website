@@ -505,26 +505,20 @@ const AllData = () => {
     {
       id: 1,
       date: "2021-2023",
-      title: "Ph.D in Horriblensess ",
-      place: "ABC University, Los Angeles, CA",
+      title: "Bachelor of IT ",
+      place: "Karaj University",
       bg: "#FFF4F4",
     },
 
     {
       id: 2,
-      date: "2019 - Present",
-      title: "Sr. Software Tester",
-      place: "Google Inc.",
+      date: "2010-2013",
+      title: "Associate in Software Engineering",
+      place: "Abadan University",
       bg: "#FFF1FB",
     },
 
-    {
-      id: 3,
-      date: "2021",
-      title: "Best Developer ",
-      place: "University Of Melbourne, NA",
-      bg: "#FFF4F4",
-    },
+  
   ];
   // experiencesArray items for Resume page
   const experiencesArray = [
