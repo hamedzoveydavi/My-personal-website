@@ -381,31 +381,31 @@ const AllData = () => {
     {
       id: "01",
       name: "About",
-      link: "/homeTwo/about",
+      link: "/about",
       icon: <FaRegUser />,
     },
     {
       id: "02",
       name: "Resume",
-      link: "/homeTwo/resume",
+      link: "/resume",
       icon: <CgNotes />,
     },
     {
       id: "03",
       name: "Works",
-      link: "/homeTwo/works",
+      link: "/works",
       icon: <FiCodesandbox />,
     },
     {
       id: "04",
       name: "Blogs",
-      link: "/homeTwo/blogs",
+      link: "/blogs",
       icon: <FaBlogger />,
     },
     {
       id: "05",
       name: "Contact",
-      link: "/homeTwo/contact",
+      link: "/contact",
       icon: <RiContactsBookLine />,
     },
   ];

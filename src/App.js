@@ -30,7 +30,7 @@ function App() {
       <ContextProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Preview />} />
+            {/* <Route path="/" element={<HomeTwo />} /> */}
             <Route path="/home" element={<Home />}>
               <Route index element={<HomePage />} />
               <Route path="homePage" element={<HomePage />} />
@@ -40,7 +40,7 @@ function App() {
               <Route path="blogs" element={<Blog />} />
               <Route path="works" element={<Portfilo />} />
             </Route>
-            <Route path="/homeTwo" element={<HomeTwo />}>
+            <Route path="/" element={<HomeTwo />}>
               <Route index element={<AboutTwo />} />
               <Route path="about" element={<AboutTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
