@@ -52,13 +52,15 @@ const ResumeTwo = () => {
                   <button className="resume-btn">Jira</button>
                   <button className="resume-btn">Trello</button>
                   <button className="resume-btn">Product Owner</button>
-                  <button className="resume-btn">Backend-developer</button>
-                  <button className="resume-btn">Frontend-developer</button>
                   <button className="resume-btn">Web Design</button>
                   <button className="resume-btn">Mobile Design</button>
                   <button className="resume-btn">DevOps</button>
                   <button className="resume-btn">Docker</button>
                   <button className="resume-btn">BPMN</button>
+                  <button className="resume-btn">Linux</button>
+                  <button className="resume-btn">Problem Solving</button>
+                  <button className="resume-btn">GIT</button>
+                  
                   
                 </div>
               </div>
