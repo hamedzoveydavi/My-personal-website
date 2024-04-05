@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import work1 from "../assets/images/work_images/1.png";
 import work2 from "../assets/images/work_images/2.jpg";
 import work3 from "../assets/images/work_images/3.png";
-/*import work4 from "../assets/images/work_images/3.jpg";
-import work5 from "../assets/images/work_images/5.jpg";
+import work4 from "../assets/images/work_images/4.png";
+/*import work5 from "../assets/images/work_images/5.jpg";
 import work6 from "../assets/images/work_images/6.jpg";
 import work7 from "../assets/images/work_images/7.jpg";
 import work8 from "../assets/images/work_images/8.jpg";
@@ -13,8 +13,8 @@ import work9 from "../assets/images/work_images/9.jpg";*/
 import workSmall1 from "../assets/images/work_images/small/1.png";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
 import workSmall3 from "../assets/images/work_images/small/3.png";
-/*import workSmall4 from "../assets/images/work_images/small/4.jpg";
-import workSmall5 from "../assets/images/work_images/small/5.jpg";
+import workSmall4 from "../assets/images/work_images/small/4.png";
+/*import workSmall5 from "../assets/images/work_images/small/5.jpg";
 import workSmall6 from "../assets/images/work_images/small/6.jpg";
 import workSmall7 from "../assets/images/work_images/small/7.jpg";
 import workSmall8 from "../assets/images/work_images/small/8.jpg";
@@ -179,6 +179,20 @@ const AllData = () => {
       linkText: "Hamrah Kousha",
       description:
         " A website to introduce the company, operational units, and airport equipment ordered by Kosha Kish Company.",
+    },
+    {
+      id: "4",
+      tag: "Web Design",
+      title: "lotus beauty",
+      img: work4,
+      imgSmall: workSmall4,
+      bg: "#FFF3FC",
+      client: "lotus beauty",
+      langages: "PHP ,HTML, CSS, Javascript",
+      link: "https://lotusmed-beauty.com/",
+      linkText: "lotus beauty",
+      description:
+        " Company site for introducing and selling beauty products.",
     },
 
     
