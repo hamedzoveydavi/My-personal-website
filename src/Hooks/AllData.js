@@ -20,17 +20,17 @@ import workSmall7 from "../assets/images/work_images/small/7.png";
 import workSmall8 from "../assets/images/work_images/small/8.png";
 /*import workSmall9 from "../assets/images/work_images/small/9.jpg";*/
 // blog post images
+import blog1 from "../assets/images/blog_images/1.webp";
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
 import blog2 from "../assets/images/blog_images/2.jpg";
-import blog1 from "../assets/images/blog_images/1.jpg";
 import blog3 from "../assets/images/blog_images/3.jpg";
 import blog5 from "../assets/images/blog_images/5.jpg";
 // blog image small
 import blogSmall6 from "../assets/images/blog_images/small/6.jpg";
 import blogSmall4 from "../assets/images/blog_images/small/4.jpg";
 import blogSmall2 from "../assets/images/blog_images/small/2.jpg";
-import blogSmall1 from "../assets/images/blog_images/small/1.jpg";
+import blogSmall1 from "../assets/images/blog_images/small/1.webp";
 import blogSmall3 from "../assets/images/blog_images/small/3.jpg";
 import blogSmall5 from "../assets/images/blog_images/small/5.jpg";
 
@@ -259,13 +259,26 @@ const AllData = () => {
       id: "1",
       img: blog1,
       imgSmall: blogSmall1,
-      date: "177 April",
+      date: "202 April",
       category: "Inspiration",
-      title: "How to Own Your Audience by Creating an Email List.",
+      title: "Top 5 Benefits of Laravel Development Services .",
       bg: "#FCF4FF",
-      description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
-    },
+      description:`
+                  <p>In the digital age, the need to set up a solid net presence is critical for businesses trying to expand their reach and advantage access to an ever-developing target audience. An expertly designed website, stocked with intuitive functions and seamless functions, can be the foundation of success for companies across all industries. But, getting through the myriad of options for eCommerce platforms could be overwhelming if you don’t have a solid grasp of the frameworks that underlie them.</p>         
+                  <p>Enter Laravel, a flexible and feature-rich framework that has become a leader in web-based development. With many benefits, Laravel has cemented its place in the top ten desired platforms in the world. We’ll take a look at the top five advantages that Laravel development services can bring into the equation:</p>
+                  <p><b>Technology and Dynamic Development:</b>
+                  Laravel is synonymous with the latest innovations and constant evolution within the technological environment. The company’s explosive growth is evident in introducing new features and improvements designed to elevate your web projects to ever-higher highs. Becoming aware of current advancements and developments is vital, so it’s essential to work with skilled Laravel development solutions to achieve the best outcomes. With Laravel’s flexible web solutions, organizations can carve out their space and be a major player in the world of digital.</p>
+                  <p><h2><b>Open-Source Accessibility:</b></h2></p>
+                  <p>One of its most distinctive characteristics is its open-source nature, which allows for broad accessibility to developers. With the bare necessities of PHP and the ability to edit text, developers can use Laravel’s flexible framework to create various websites and apps ranging from simple to complex. Additionally, the frequent improvements and constant updates enable users to design solutions that are in sync with the goals of your company. Pre-built solutions and routing middleware also ease the process of coding, creating the highest efficiency and flexibility.</p>
+                  <p><h2><b>Cost-Effectiveness:</b></h2></p>
+                  <p>Accepting Laravel results in cost-effectiveness, without compromising the quality of service. Its cost-effective framework paves the way for the seamless development of user-friendly, responsive applications that aren’t costly. If you’re looking for low-cost solutions, or a programmer seeking to maximize the use of resources, Laravel offers a wealth of options for stakeholders who are budget-conscious.</p>
+                  <p><h2><b>Optimized Performance:</b></h2></p>
+                  <p>In the crowded world of online commerce, speed is crucial for sustainable expansion. Laravel stands out as a beacon of quality, providing unbeatable efficiency and scaling capabilities to help propel enterprises to the next level. With the help of Laravel’s powerful abilities to develop, companies can create the best strategies for engaging their audience efficiently. From faster web app development to better support, Laravel provides enterprises of all sizes with the necessary tools to succeed in the rapidly evolving digital world. Additionally, features like Redis and Memcached help improve app performance, usability, and efficiency, providing users with a smooth experience.</p>
+                  <p><h2><b>MVC Architecture:</b></h2></p>
+                  <p>Laravel’s adoption of the Model-View-Controller (MVC) architecture underscores its dedication to established and organized net improvement. This architectural version divides web applications into 3 distinct factors: model, view, and controller, allowing for fast development and improved transparency in the task. Additionally, MVC architecture simplifies tasks and ensures efficiency in documentation and project management, which ensures a consistent and efficient development process.</p>
+                  
+                  `
+                },
     {
       id: "4",
       img: blog4,
@@ -276,7 +289,8 @@ const AllData = () => {
       bg: "#EEFBFF",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
-    },
+    
+      },
     {
       id: "2",
       img: blog2,

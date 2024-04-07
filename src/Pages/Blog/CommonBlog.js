@@ -3,7 +3,7 @@ import Footer from "../../Share/Footer";
 import UseData from "../../Hooks/UseData";
 import { BsXCircle } from "react-icons/bs";
 import Modal from "react-modal";
-import user from "../../assets/images/about/about.jpg";
+import user from "../../assets/images/about/avatar1.png";
 import {
   FaDribbble,
   FaFacebookF,
@@ -116,7 +116,8 @@ const CommonBlog = ({ items, count }) => {
                         className="dark:text-white font-normal text-[15px] sm:text-sm my-4"
                         key={j}
                       >
-                        {item}
+                        <div dangerouslySetInnerHTML={{__html:item}}/>
+                       
                       </p>
                     ))}
                   </div>
@@ -126,7 +127,7 @@ const CommonBlog = ({ items, count }) => {
                     <div className=" dark:bg-[#232220] bg-[#ffffff]   flex  p-4 rounded-lg  ">
                       <div>
                         <img
-                          className="  md:w-[125px] rounded-xl "
+                          className="  md:w-[250px] rounded-xl "
                           src={user}
                           alt=""
                         />
@@ -134,20 +135,19 @@ const CommonBlog = ({ items, count }) => {
                       <div className="pl-5">
                         <div className="flex justify-between items-center">
                           <h3 className="dark:text-white text-[22px] font-medium">
-                            Rafia Ana
+                            Hamed Zoveydavi
                           </h3>{" "}
                           <span className="dark:text-[#dedede] text-tiny ">
                             15 min ago
                           </span>
                         </div>
                         <p className="dark:text-white  md:pr-16">
-                          Lorem, ipsum dolor sit amet consectetur adipisicing
-                          elit. Sequi nam ad, unde vel aut soluta atque
-                          consequatur. Omnis, debitis nihil?
+                            When businesses start their journey to digital transformation, the selection of the best framework is crucial for achieving the desired results.
+                            Laravel stands out as an innovator in web development.
+                            It offers unbeatable flexibility, speed, and scalability.
+                            With a variety of functions and tools, Laravel lets developers build sophisticated software quicker and more imaginatively than ever. 
+                            Whether you’re an emerging business or a seasoned enterprise, Laravel development services provide the perfect solution to unleash your full digital potential.
                         </p>
-                        <button className="dark:text-[#dedede] text-tiny hover:text-[#FA5252] dark:hover:text-[#FA5252]">
-                          Reply
-                        </button>
                       </div>
                     </div>
                   </div>
