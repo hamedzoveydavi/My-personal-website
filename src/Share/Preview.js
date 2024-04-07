@@ -201,8 +201,7 @@ const Preview = () => {
           </h3>
 
           <p className="text-md text-[#aaa] font-normal w-full md:w-2/3 lg:w-[50%] mx-auto mt-2.5 ">
-            Bostami build with Modern, Elegant & Beautiful trendng <br />
-            technology like Tailwind CSS and React Js.
+          Hamed Zoveydavi - FullStack developer.
           </p>
         </div>
         {/* End .container */}
@@ -278,7 +277,7 @@ const Preview = () => {
           data-aos="fade"
           className="font-bold text-[22px] md:text-[26px] xl:text-[32px] 2xl:text-[42px] text-white pt-[40px] mx-auto max-w-4xl px-4 "
         >
-          Purchase Bostami & Build Your Dream Portfolio{" "}
+          Hamed Zoveydavi - FullStack developer{" "}
           <span className="text-[#F95054]">React JS</span> &{" "}
           <span className="text-[#F95054]">Tailwind CSS</span> Portfolio
           Template.
