@@ -22,17 +22,17 @@ import workSmall8 from "../assets/images/work_images/small/8.png";
 // blog post images
 import blog1 from "../assets/images/blog_images/1.webp";
 import blog6 from "../assets/images/blog_images/6.jpg";
-import blog4 from "../assets/images/blog_images/4.jpg";
+import blog4 from "../assets/images/blog_images/4.webp";
 import blog2 from "../assets/images/blog_images/2.jpg";
 import blog3 from "../assets/images/blog_images/3.jpg";
-import blog5 from "../assets/images/blog_images/5.jpg";
+import blog5 from "../assets/images/blog_images/5.png";
 // blog image small
 import blogSmall6 from "../assets/images/blog_images/small/6.jpg";
-import blogSmall4 from "../assets/images/blog_images/small/4.jpg";
+import blogSmall4 from "../assets/images/blog_images/small/4.webp";
 import blogSmall2 from "../assets/images/blog_images/small/2.jpg";
 import blogSmall1 from "../assets/images/blog_images/small/1.webp";
 import blogSmall3 from "../assets/images/blog_images/small/3.jpg";
-import blogSmall5 from "../assets/images/blog_images/small/5.jpg";
+import blogSmall5 from "../assets/images/blog_images/small/5.png";
 
 import img1 from "../assets/images/slider/brand-1.png";
 import img2 from "../assets/images/slider/brand-2.png";
@@ -260,7 +260,7 @@ const AllData = () => {
       img: blog1,
       imgSmall: blogSmall1,
       date: "202 April",
-      category: "Inspiration",
+      category: "Web Design",
       title: "Top 5 Benefits of Laravel Development Services .",
       bg: "#FCF4FF",
       description:`
@@ -276,19 +276,33 @@ const AllData = () => {
                   <p>In the crowded world of online commerce, speed is crucial for sustainable expansion. Laravel stands out as a beacon of quality, providing unbeatable efficiency and scaling capabilities to help propel enterprises to the next level. With the help of Laravel’s powerful abilities to develop, companies can create the best strategies for engaging their audience efficiently. From faster web app development to better support, Laravel provides enterprises of all sizes with the necessary tools to succeed in the rapidly evolving digital world. Additionally, features like Redis and Memcached help improve app performance, usability, and efficiency, providing users with a smooth experience.</p>
                   <p><h2><b>MVC Architecture:</b></h2></p>
                   <p>Laravel’s adoption of the Model-View-Controller (MVC) architecture underscores its dedication to established and organized net improvement. This architectural version divides web applications into 3 distinct factors: model, view, and controller, allowing for fast development and improved transparency in the task. Additionally, MVC architecture simplifies tasks and ensures efficiency in documentation and project management, which ensures a consistent and efficient development process.</p>
-                  
                   `
                 },
     {
       id: "4",
       img: blog4,
       imgSmall: blogSmall4,
-      date: "000 April",
-      category: "Inspiration",
-      title: "Everything You Need to Know About Web Accessibility.",
+      date: "22 April",
+      category: "Web Design",
+      title: "Frontend Development with Laravel",
       bg: "#EEFBFF",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
+        `
+        <p><h2><b>Introduction:</b></h2></p>
+        <p>Frontend development plays a crucial role in crafting modern web applications that are not only visually appealing but also highly functional and user-friendly. While there are numerous frontend frameworks and tools available, Laravel, primarily known as a backend PHP framework, offers a unique approach to frontend development. In this article, we will explore how Laravel, with its frontend capabilities and ecosystem, provides developers with a comprehensive solution for building dynamic and engaging user interfaces.</p>
+        <p>1.</p>
+        <p><h2>Blade Templating Engine:</h2></p>
+        <p>Laravel introduces Blade, a powerful templating engine, which simplifies the process of creating frontend views. Blade templates allow developers to write clean and efficient PHP code mixed with HTML, enhancing code readability and maintainability. With features like template inheritance, control structures, and reusable components, Blade empowers developers to build complex layouts with ease.</p>
+        <p>2.</p>
+        <p><h2>Laravel Mix:</h2></p>
+        <p>Laravel Mix is a fluent API wrapper for Webpack, a popular module bundler for modern JavaScript applications. With Laravel Mix, developers can define asset compilation tasks using a simple and intuitive API, abstracting away the complexity of Webpack configuration. Whether it's compiling CSS preprocessors, processing JavaScript files, or optimizing images, Laravel Mix streamlines the frontend build process, enabling developers to focus on writing code rather than build configurations.</p>
+        <p>3.</p>
+        <p><h2>Vue.js Integration:</h2></p>
+        <p>Laravel provides first-class support for Vue.js, a progressive JavaScript framework for building user interfaces. With Laravel's built-in support for Vue.js, developers can effortlessly integrate Vue components into their applications and leverage reactive data binding, component-based architecture, and other Vue features. The tight integration between Laravel and Vue.js fosters a seamless development experience, allowing developers to build interactive and responsive frontend interfaces.</p>
+        <p>3.</p>
+        <p><h2>Laravel UI Presets:</h2></p>
+        <p>Laravel UI presets offer pre-built frontend scaffolding for popular frontend frameworks like Vue.js, React, and Bootstrap. With Laravel UI, developers can quickly set up frontend assets, including authentication views, without the need for manual configuration. By providing ready-to-use templates and components, Laravel UI accelerates frontend development, enabling developers to kickstart their projects with minimal setup overhead.</p>
+        `
     
       },
     {
@@ -297,21 +311,56 @@ const AllData = () => {
       imgSmall: blogSmall2,
       date: "21 April",
       category: "Web Design",
-      title: "The window know to say beside you",
+      title: "Laravel is one of the popular and widely-used frameworks for web development",
       bg: "#FFF0F0",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
+        `
+        <p>Laravel is one of the popular and widely-used frameworks for web development, offering many features and capabilities that set it apart from its competitors. Below are some of the distinguishing features of Laravel compared to its competitors:</p>
+        <p>1.</p>
+        <p><h2>Eloquent ORM:</h2></p>
+        <p>Laravel utilizes a powerful Object-Relational Mapping (ORM) called Eloquent for database communication. This ORM allows developers to work with object-oriented models, making database operations easy without needing to write SQL code. This feature simplifies the development process and enhances database capabilities and quality.</p>
+        <p>2.</p>
+        <p><h2>Routing and Controllers System:</h2></p>
+        <p>Laravel boasts a robust routing system, enabling developers to define various routes in their applications and connect them to controllers. This routing system facilitates seamless navigation between different pages and resources within applications.</p>
+        <p>3.</p>
+        <p><h2>Powerful Configuration System:</h2></p>
+        <p>Laravel features a powerful configuration system that allows developers to easily manage different settings of their applications. This configuration system enables developers to centralize various settings management and ensures accuracy and predictability in application changes.</p>
+        <p>4.</p>
+        <p><h2>Validation and Authentication System:</h2></p>
+        <p>Laravel comes with a robust validation and authentication system, empowering developers to customize user validation and authentication using different rules and constraints. This feature ensures developers can easily enforce security measures and prevent unauthorized access.</p>
+        <p>5.</p>
+        <p><h2>Event and Listener System:</h2></p>
+        <p>Laravel includes a powerful event and listener system, allowing developers to respond to various events in their applications and perform different actions. This event and listener system enables developers to react to events, publish them, and track them within their applications seamlessly.</p>
+        `
     },
     {
       id: "5",
       img: blog5,
       imgSmall: blogSmall5,
       date: "27 April",
-      category: "Inspiration",
-      title: "Top 10 Toolkits for Deep Learning in 2021.",
+      category: "Front-end",
+      title: "Unleashing the Power of React.js",
       bg: "#FCF4FF",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
+        `
+        <p><h2>Introduction:</h2></p>
+        <p>In the rapidly evolving landscape of web development, frontend technologies play a pivotal role in creating immersive and dynamic user experiences. Among these technologies, React.js stands out as a powerful and innovative JavaScript library for building user interfaces. In this article, we will delve into the unique features and capabilities of React.js and explore how it is revolutionizing frontend development.</p>
+        <p>1.</p>
+        <p><h2>Declarative and Component-Based Architecture:</h2></p>
+        One of the defining features of React.js is its declarative and component-based architecture. React allows developers to build UI components as independent and reusable units, each encapsulating its own logic and presentation. This modular approach simplifies code organization, promotes reusability, and enhances maintainability, making it easier to manage complex UIs.</h2></p>
+        <p>2.</p>
+        <p><h2>Virtual DOM for Efficient Rendering:</h2></p>
+        <p>React employs a virtual DOM (Document Object Model) to efficiently update and render UI components. Instead of directly manipulating the browser DOM, React creates a lightweight representation of the DOM in memory. By comparing the virtual DOM with the actual DOM, React identifies the minimal set of changes needed to update the UI, resulting in faster rendering and improved performance.</p>
+        <p>3.</p>
+        <p><h2>JSX for Enhanced Developer Productivity:</h2></p>
+        <p>JSX (JavaScript XML) is a syntax extension for JavaScript that allows developers to write HTML-like code directly within JavaScript. With JSX, developers can seamlessly integrate UI components and logic, streamlining the development process and improving code readability. JSX also provides syntactic sugar for creating React elements, reducing the verbosity of traditional JavaScript syntax.</p>
+        <p>4.</p>
+        <p><h2>Unidirectional Data Flow with Flux and Redux:</h2></p>
+        <p>React promotes a unidirectional data flow architecture, which helps manage state and data flow within an application. Flux and Redux are popular state management libraries that complement React, providing predictable state management and efficient data propagation. By centralizing application state and enforcing strict data flow patterns, Flux and Redux enable developers to build scalable and maintainable frontend applications.</p>
+        <p>5.</p>
+        <p><h2>Rich Ecosystem and Community Support:</h2></p>
+        <p>React.js benefits from a vibrant ecosystem and a thriving community of developers and contributors. The React ecosystem encompasses a wide range of libraries, tools, and frameworks, including React Router for routing, Material-UI for UI components, and Next.js for server-side rendering. Additionally, the React community actively shares knowledge, best practices, and reusable components, fostering collaboration and innovation.</p>
+        `
     },
     {
       id: "3",
@@ -319,7 +368,7 @@ const AllData = () => {
       imgSmall: blogSmall3,
       date: "27 April",
       category: "Inspiration",
-      title: "How to Own Your Audience by Creating an Email List.",
+      title: "Unleashing the Power of React.js",
       bg: "#FCF4FF",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum conseqr quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consetur quo obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur. \n Lorem ipsum dolor, sit amet consectetur adipisicing  elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non. ",
@@ -329,7 +378,7 @@ const AllData = () => {
       img: blog6,
       imgSmall: blogSmall6,
       date: "27 April",
-      category: "Inspiration",
+      category: "ّWeb Design",
       title: "Everything You Need to Know About Web Accessibility.",
       bg: "#EEFBFF",
       description:
