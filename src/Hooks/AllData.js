@@ -21,17 +21,15 @@ import workSmall8 from "../assets/images/work_images/small/8.png";
 /*import workSmall9 from "../assets/images/work_images/small/9.jpg";*/
 // blog post images
 import blog1 from "../assets/images/blog_images/1.webp";
-import blog6 from "../assets/images/blog_images/6.jpg";
+
 import blog4 from "../assets/images/blog_images/4.webp";
 import blog2 from "../assets/images/blog_images/2.jpg";
-import blog3 from "../assets/images/blog_images/3.jpg";
 import blog5 from "../assets/images/blog_images/5.png";
 // blog image small
-import blogSmall6 from "../assets/images/blog_images/small/6.jpg";
+
 import blogSmall4 from "../assets/images/blog_images/small/4.webp";
 import blogSmall2 from "../assets/images/blog_images/small/2.jpg";
 import blogSmall1 from "../assets/images/blog_images/small/1.webp";
-import blogSmall3 from "../assets/images/blog_images/small/3.jpg";
 import blogSmall5 from "../assets/images/blog_images/small/5.png";
 
 import img1 from "../assets/images/slider/brand-1.png";
