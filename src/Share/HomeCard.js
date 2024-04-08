@@ -112,7 +112,7 @@ const HomeCard = () => {
                     className="hover:text-[#FA5252] duration-300 transition"
                     href="info@zoveidavi.ir"
                   >
-                    hamed@zoveidavi.ir
+                    hamed@zoveydavi.ir
                   </a>
                 </p>
               </div>
